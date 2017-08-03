@@ -1,0 +1,11 @@
+
+browserInfo.adBlockActive = false;
+
+$(function(){
+// on ready function
+
+	for (var id in ad_slots) {
+		if (ad_slots[id]) $('#'+id).addClass(ad_slots[id]);
+		}
+	
+	});
